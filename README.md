@@ -1,9 +1,14 @@
 # Pizza_sales-on-mysql
 ABOUT DATASET:
-A synthetic dataset that describes pizza sales for a pizza place somewhere in the 
-US. While the contents are artificial, the ingredients used to make the pizzas are far 
-from it. There are 32 different pizzas that fall into 4 different categories: classic, 
-chicken, supreme and veggie.
+The dataset used is synthetic, representing pizza sales from a pizza place in the U.S. It includes details on 32 different pizzas categorized into four types: classic, chicken, supreme, and veggie. Each record in the dataset captures details such as the order ID, date, time, pizza name, size, type, and price.
+
+Purpose of the project:
+The main purpose of the project is to apply SQL queries for various analyses, such as:
+
+• Fetching specific records (e.g., pizzas with a certain price or type).
+• Modifying the table (e.g., renaming columns, adding primary and foreign keys).
+• Performing operations using functions like ceil(), floor(), and date functions like NOW().
+• Executing subqueries and creating views.
 
 Column Description:
 • id: The ID for the order, which consists of one or more pizzas at a give date and time
